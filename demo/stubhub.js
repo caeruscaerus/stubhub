@@ -1,5 +1,6 @@
-var stubhub = require("../index").createClient("_Mw8PvXAKEpEOmaBnfxdcFLnc5wa");
 var secrets = require("./secrets.example");
+var stubhub = require("../index").createClient(secrets.application_key);
+
 
 var searchParams = {
 	date: "2015-02-25",
